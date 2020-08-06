@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #FDD9B5;
+}
+
+.loginForm {
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.loginForm input[type="text"], .loginForm input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-allign: center;
+	border: 2px solid #778899;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	transition: 0.1s;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+.h2 {
+	font-family: monospace;
+	color: #441010;
+}
+
+.ul {
+	list-style: none;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.a {
+	text-decoration: none;
+	font-family: 'Lora', serif;
+	transition: .5s linear;
+}
+
+.i {
+	margin-right: 10px;
+}
+
+.nav {
+	display: block;
+	width: 660px;
+	margin: 0 auto 30px;
+}
+
+.four ul {
+	display: -webkit-flex;
+	display: flex;
+	background: #DCDCDD;
+	padding-left: 0;
+	width: 100%;
+}
+
+li {
+	width: 100%;
+	list-style-type: none;
+}
+
+.four a {
+	padding: 1em;
+	display: block;
+	color: #976464;
+	border-right: 1px solid #FFAB51;
+	background: rgba(255, 171, 81, .3);
+}
+
+.four a:hover {
+	background: #DCDCDC
+}
+
+.block {
+	background-color: #FFE4C4;
+	padding-top: 24px;
+	padding-bottom: 21px;
+}
+
+.form {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 100%;
+	width: 686px;
+	background-color: #FFEBCD;
+}
+
+.bbb {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 100%;
+	width: 760px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #E9967A;
+	font-weight: bold;
+	font-family: "Monotype Corsiva" Cursive;
+	margin-top: 0px;
+	margin-bottom: 22px;
+}
+
+.param input[type="text"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-allign: center;
+	border: 2px solid #778899;
+	padding: 14px 10px;
+	width: 350px;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	transition: 0.1s;
+}
+
+.user {
+	text-align: right;
+	font-family: Geneva;
+}
+
+table {
+	width: 686px; /* Ширина таблицы */
+	border: 3px solid black; /* Рамка вокруг таблицы */
+	border-collapse: collapse;
+}
+
+tr, th, td {
+	padding: 14px; /* Поля вокруг содержимого ячеек */
+	border: 3px solid black;
+}
+
+th {
+	text-align: left; /* Выравнивание по левому краю */
+	background: black; /* Цвет фона */
+	color: white; /* Цвет текста */
+	width: 100px;
+}
+
+td {
+	width: 100px;
+	padding: 14px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.aaa {
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+	text-allign: center;
+	border: 2px solid #778899;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	transition: 0.1s;
+}
+
+.aa {
+	text-align: center;
+}
+
+.menu a{
+  padding: 10px;
+}
+
+.menu_item{
+  position: relative;
+}
+
+.btn {
+  display: inline-block;
+  width: 227px;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  color: rgb(0,0,0);
+  outline: none;
+  border: 1px solid rgba(0,0,0,.4);
+  border-top-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+  background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(255,255,255,.2),
+   0 -1px 1px 1px rgba(0,0,0,0);
+  transition: .2s ease-in-out;
+}
+a.btn:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+a.btn:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+
+.sidebar1{
+  height: 600px;
+  background-color: #ccb5b5;
+  width: 248px;
+  float: left;
+}
